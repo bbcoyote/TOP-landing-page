@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.links-logo {
+  margin-right: auto;
+}
+/* links-logo is a class on the li with the img to set to the right nav-logo is to set the img size */
+.nav-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.header-logo {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+}
+
+.header-container {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+.btn {
+  width: 80px;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+  color: #e5e7eb;
+  background-color: #1f2937;
+}
+
+.contents {
+  text-align: center;
+}
+
+.content-li {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contents img {
+  width: 250px;
+  height: 250px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  width: 300px;
+}
+
+.footer {
+  padding: 0;
+  margin: 0;
+  background-color: #1f2937;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #e5e7eb;
+  margin: 0;
+}

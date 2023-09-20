@@ -4,36 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Landing Page</title>
-    <link rel="styles" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="container">
-        <ul>
-          <li>link 1</li>
-          <li>link 2</li>
-          <li>link 3</li>
-          <li>link 4</li>
+    <div class="header-container">
+      <div class="navbar">
+        <ul class="links">
+          <li class="links-logo">
+            <a href="#"><img class="nav-logo" src="./images/ninja.svg" /></a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">faqs</a></li>
         </ul>
       </div>
-    </div>
-    <div class="header">
-      <div class="container">brief description before contents</div>
+
+      <div class="header">
+        <div class="text-container">
+          <h2>This Landing Page is Great!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat
+            repellendus distinctio quo odit dicta vel doloribus quasi ex?
+            Reprehenderit, saepe! Placeat quam qui non consequuntur similique
+            architecto, laudantium optio.
+          </p>
+          <button class="btn">Do Thing!</button>
+        </div>
+        <img class="header-logo" src="./images/ninjanime.png" />
+      </div>
     </div>
     <div class="contents">
-      <div class="container">
-        <h2>main information in page</h2>
-        <ul>
-          <li>pic 1</li>
-          <li>pic 2</li>
-          <li>pic 3</li>
-          <li>pic 4</li>
-          <li>pic 5</li>
-        </ul>
+      <h2>main information in page</h2>
+      <ul class="content-li">
+        <li>
+          <a href="#"><img src="./images/katana.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/ramen.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/coy.png" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="quote-container">
+      <h2>Wise Old Quote</h2>
+      <div class="quote">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, tempore
+          perspiciatis inventore vitae molestias reiciendis ullam ipsam et
+          voluptates. In laborum explicabo, corporis reiciendis assumenda error
+          consequuntur suscipit quaerat ullam?
+        </p>
+        <h3><em>- Wise Old Man</em></h3>
       </div>
     </div>
     <div class="footer">
-      <div class="container">footer links and info</div>
+      <ul class="footer-links">
+        <li><a href="#">Back To Top</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">Something Else</a></li>
+      </ul>
     </div>
   </body>
 </html>
